@@ -1,0 +1,78 @@
+$hovercolor: rgb(238, 238, 238);
+
+.FinishedQuiz {
+  color: white;
+  .fas {
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+  }
+
+  .fa-times-circle {
+    color: rgb(231, 110, 110);
+  }
+
+  .fa-check-circle {
+    color: rgb(108, 228, 72);
+  }
+
+  .fa-question-circle {
+    color: #33cbdf;
+  }
+
+  .fa-share-alt-square {
+    font-size: 15px;
+  }
+
+  .center {
+    border-left: 2px rgb(160, 160, 160) solid;
+    border-right: 2px rgb(160, 160, 160) solid;
+    padding-left: 10px;
+    margin-right: 10px;
+  }
+
+  .AnswersBlock {
+    padding: 5px 10px;
+    color: black;
+    margin: 10px 0 10px 0;
+  }
+
+  .yourAnswer {
+    width: fit-content;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+    background-color: rgb(247, 138, 138);
+    border: 1px solid rgb(231, 110, 110);
+  }
+
+  .rightAnswer {
+    width: fit-content;
+    margin-top: 5px;
+    padding: 0 10px 0 10px;
+    border-radius: 10px;
+    background-color: rgb(141, 212, 119);
+    border: 1px solid rgb(108, 228, 72);
+  }
+
+  button {
+    background-color: #fff;
+    color: rgb(83, 83, 83);
+    border-radius: 30px;
+    padding: 15px 20px;
+    border: none;
+    font-weight: 600;
+    border-bottom: 2px solid #babcb5;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: $hovercolor;
+    }
+    &:active {
+      outline: none;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}

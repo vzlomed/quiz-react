@@ -1,0 +1,28 @@
+$hovercolor: rgb(238, 238, 238);
+
+.AnswerItem {
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin-bottom: 5px;
+  color: #000;
+  background-color: #fff;
+  cursor: pointer;
+  &:hover {
+    background-color: $hovercolor;
+  }
+}
+
+.success {
+  background-color: #8cdf66;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    background-color: #8cdf66;
+  }
+}
+.error {
+  background-color: #faa2a2;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    background-color: #faa2a2;
+  }
+}

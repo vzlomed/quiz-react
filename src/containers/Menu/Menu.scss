@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Houstander";
+  src: url("./HoustanderDemo.ttf");
+}
+
+@font-face {
+  font-family: "Flix-Normal";
+  src: url("./Flix-Normal.ttf");
+}
+
+@font-face {
+  font-family: "Asterone Demo";
+  src: url("./Asterone DEMO.ttf");
+}
+
+.Menu {
+  padding: 10px 50px 10px 50px;
+  background-color: #2c4e8d;
+  box-shadow: 0px 0px 5px 0px rgba(34, 60, 80, 0.5);
+  z-index: 100;
+  button {
+    padding: 10px 20px 10px 20px;
+    background-color: #ffffff00;
+    border: 0;
+    background-image: url("logo.png");
+    /* React Tests */
+  }
+}
